@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 1;
+  background-color:#bdcdd6;
+  color: rgb(1, 6, 8);;
+  border-radius: 8px;
+}
+
+.app{
+  padding: 0 9%;
+}

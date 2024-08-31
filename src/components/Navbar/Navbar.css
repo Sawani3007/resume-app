@@ -1,0 +1,32 @@
+.navbar_container {
+  background-color: #333 !important; /* Added !important to ensure precedence */
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar_left {
+  color: rgb(17, 18, 18);
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+
+.navbar_right {
+  display: flex;
+}
+
+.navbar_right > p {
+  margin-right: 10px;
+  padding: 8px 10px;
+  font-size: 17px;
+}
+
+.navbar_right > p:hover {
+  background-color: rgb(217, 239, 150);
+  border-radius: 10px;
+  cursor: pointer;
+}
